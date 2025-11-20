@@ -39,7 +39,7 @@ export const metadata = {
     "AI Integration",
     "Networking",
   ],
-  authors: [{ name: "Pankaj Thakur", url: "" }],
+  authors: [{ name: "Pankaj Thakur", url: "https://pankaj-thakur.vercel.app/" }],
   creator: "Pankaj Thakur",
   publisher: "Pankaj Thakur",
   openGraph: {
