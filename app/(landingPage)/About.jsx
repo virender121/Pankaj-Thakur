@@ -74,7 +74,7 @@ const About = () => {
             >
               <Image
                 className="object-cover object-top align-middle scale-125"
-                src="/about-profile-og.png"
+                src="/hero-profile.jpg"
                 alt="about-profile"
                 fill
               />
