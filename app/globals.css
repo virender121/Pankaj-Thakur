@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+body {
+  background: #e1dfdd;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@layer base {
+  @font-face {
+    font-family: "ppneune-bold";
+    src: url("./fonts/pp/ppneuemontreal-bold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "ppneune-book";
+    src: url("./fonts/pp/ppneuemontreal-book.woff") format("woff");
+  }
+  @font-face {
+    font-family: "ppneune-italic";
+    src: url("./fonts/pp/ppneuemontreal-italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "ppneune-medium";
+    src: url("./fonts/pp/ppneuemontreal-medium.woff") format("woff");
+  }
+  @font-face {
+    font-family: "ppneune-semibolditalic";
+    src: url("./fonts/pp/ppneuemontreal-semibolditalic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "ppneune-thin";
+    src: url("./fonts/pp/ppneuemontreal-thin.woff") format("woff");
+  }
+}
+
+@theme {
+  --font-ppneune-bold: "ppneune-bold", "sans-serif";
+  --font-ppneune-book: "ppneune-book", "sans-serif";
+  --font-ppneune-italic: "ppneune-italic", "sans-serif";
+  --font-ppneune-medium: "ppneune-medium", "sans-serif";
+  --font-ppneune-semibolditalic: "ppneune-semibolditalic", "sans-serif";
+  --font-ppneune-thin: "ppneune-thin", "sans-serif";
+}
+
+html.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
