@@ -45,15 +45,15 @@ export const metadata = {
   openGraph: {
     title: "Pankaj Thakur | Full-Stack Web Developer",
     description:
-      "I’m Vishal Mishra, a Full-Stack Web Developer skilled in React.js, Next.js, and Node.js. Explore my portfolio, projects, and freelance web development work.",
-    url: "https://vishalmishra.vercel.app",
-    siteName: "Vishal Mishra Portfolio",
+      "I’m Pankaj Thakur, a Full-Stack Web Developer skilled in React.js, Next.js, and Node.js. Explore my portfolio, projects, and freelance web development work.",
+    url: "https://pankaj-thakur.vercel.app/",
+    siteName: "Pankaj Thakur Portfolio",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/82864194?v=4", // update this with your actual preview image URL
+        url: "https://pankaj-thakur.vercel.app/pankaj-thumbnail.jpg", // update this with your actual preview image URL
         width: 1200,
         height: 630,
-        alt: "Vishal Mishra — Full-Stack Web Developer Portfolio",
+        alt: "Pankaj Thakur — Full-Stack Web Developer Portfolio",
       },
     ],
     locale: "en_IN",
@@ -61,16 +61,16 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vishal Mishra | Full-Stack Web Developer",
+    title: "Pankaj Thakur | Full-Stack Web Developer",
     description:
       "Full-Stack Developer specializing in React.js, Next.js, and Node.js. Building high-performance and scalable web apps using the MERN stack.",
     creator: "@panku6688t", // optional — add if you have a Twitter handle
     
   },
-  // metadataBase: new URL("https://vishalmishra.vercel.app"),
-  // alternates: {
-  //   canonical: "https://vishalmishra.vercel.app",
-  // },
+  metadataBase: new URL("https://pankaj-thakur.vercel.app/"),
+  alternates: {
+    canonical: "https://pankaj-thakur.vercel.app/",
+  },
 };
 
 
