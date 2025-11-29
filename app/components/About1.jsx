@@ -14,16 +14,19 @@ const About1 = () => {
           <Copy>
             <div className="mt-7">
               <p className="text-3xl uppercase font-ppneune-medium">
-                Passionate about web technologies. I love working at the
-                intersection of creativity and user friendly interfaces. I
-                create memorable web experiences.
+                Driven by curiosity and disciplined craftsmanship. I build
+                reliable, meaningful systems that sit at the intersection of
+                thoughtful design, deep engineering, and a hacker’s instinct
+                for how things break.
               </p>
             </div>
 
             <div className="mt-9">
               <p className="text-3xl uppercase font-ppneune-medium">
-                When I'm not building or exploring new web experiences, I'm
-                probably playing games or watching anime.
+                As a full-stack and Python/Django developer with an interest in
+                the offensive side of security, I explore both sides of the
+                craft—creating new experiences, and understanding the cracks
+                where systems fall apart.
               </p>
             </div>
           </Copy>
@@ -32,26 +35,27 @@ const About1 = () => {
         <div className="lg:flex lg:w-full lg:gap-8 lg:mt-20">
           <Copy>
             <p className="mt-12 text-xl font-ppneune-medium w-60 lg:w-[20vw]">
-              A blend of UI and product engineering.
+              Engineering with clarity, intent, and constant improvement.
             </p>
           </Copy>
           <div className="w-full lg:w-[25vw] lg:pr-10">
             <Copy>
               <p className="mt-12 text-xl font-ppneune-medium ">
-                With a background in web development and IT, I work with
-                design-focused teams to build responsive modern web-apps and
-                microsites for businesses and individuals that balance
-                aesthetics with usability. My projects span both client work and
-                academic work, giving me hands-on experience in real-world
-                product development.
+                Self-taught and shaped by real-world challenges, I work with
+                design-forward teams to build fast, modern web applications that
+                balance aesthetics with performance. When something can be
+                improved or automated, I do it—and when it’s valuable, I open
+                source it so others can build on it.
               </p>
             </Copy>
             <div>
               <Copy>
               <p className="mt-8 text-xl font-ppneune-medium">
-              With my experience in freelance web development, I'm specialize in
-              creating responsive, scalable, and user-friendly web experiences
-              that solve product challenges while keeping design at the core.
+                 My experience spans full-stack product engineering, security-minded
+                  development, and rapid problem solving across different stacks.
+                  Every project is an opportunity to sharpen my tools and learn
+                  something entirely new—because there is always a solution if
+                  you're willing to explore.
             </p>
             </Copy>
             </div>

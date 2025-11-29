@@ -16,8 +16,8 @@ const Header = () => {
 
       <div className="mt-8.5 uppercase text-[11.2dvw] font-ppneune-medium leading-[9.8dvw] lg:text-[9dvw] lg:leading-[7.8dvw]">
         <CharReveal>
-          <h1>Creative</h1>
-          <h1>Developer</h1>
+          <h1>Pragmatic</h1>
+          <h1>Programmer</h1>
         </CharReveal>
       </div>
 

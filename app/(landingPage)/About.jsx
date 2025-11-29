@@ -15,10 +15,10 @@ const About = () => {
               Passionate
             </h1>
             <h1 className="uppercase font-ppneune-medium text-[11.2dvw] leading-[9.8dvw] lg:text-[9dvw] lg:leading-[7.8dvw]">
-              Creative
+              Pragmatic
             </h1>
             <h1 className="uppercase font-ppneune-medium text-[11.2dvw] leading-[9.8dvw] lg:text-[9dvw] lg:leading-[7.8dvw]">
-              Developer
+              Prgorammer
             </h1>
           </Copy>
           <motion.div
@@ -47,20 +47,24 @@ const About = () => {
         <div className="mt-20 lg:mt-30 text-xl font-ppneune-medium lg:flex lg:justify-between">
           <Copy delay={0.5}>
             <h1 className="lg:w-[10vw] xl:w-[14vw]">
-              A journey of curiosity and explorations
+              A journey shaped by curiosity, discipline, and deliberate practice
             </h1>
           </Copy>
           <div className="lg:w-[22vw]">
             <Copy delay={0.5}>
               <p className="mt-12 lg:mt-0">
-                I'm a creative developer with years of experience in building
-                websites and appealing web-app experiences. I've collaborated
-                with individuals and agencies to build experiences for their
-                clients.
+                I'm a self-taught developer who learned by building, breaking, and fixing.
+                My experience spans multiple technologies, shaped by years of hands-on
+                work and a constant drive to understand how things truly operate under the
+                hood. I’ve partnered with teams and creators to craft purposeful, reliable
+                digital experiences.
               </p>
               <p className="mt-8 lg:mt-10">
-                Each project is an opportunity to learn new concepts across
-                multiple domains including arts, maths and physics.
+                Every project is a chance to sharpen my tools — exploring new ideas across
+                tech, design, and the domains that inspire great software: books, art,
+                science, maths, and the quiet craft of problem-solving. I approach each
+                build with a pragmatic mindset: stay curious, keep learning, and ship with
+                intention.
               </p>
             </Copy>
             <motion.div

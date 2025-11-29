@@ -8,19 +8,20 @@ import { LucideLink } from "lucide-react";
 const projects = [
   {
     id: 1,
-    imgSrc: "/zodius-cover.jpg",
-    href: "https://zodius.vercel.app",
-    name: "Zodius",
-    desc: "A web-app designed for gaming portfolio with loads of animation.",
-    detailedDesc: `Zodius is a sleek, cosmic-themed
-web app built with Next.js and
-Tailwind CSS, featuring smooth
-GSAP animations and a
-mobile-first, responsive design.
-Optimized for performance and
-deployed on Vercel, this project
-showcases modular components
-and a modern, polished UI.`,
+    imgSrc: "/eazee.png",
+    href: "https://eazee-6wgk.vercel.app",
+    name: "Eazee AI",
+    desc: "A collaborative web-app where teams can write, design, and share ideas seamlessly.",
+    detailedDesc: `Eazee AI is a modern, collaboration-first
+platform designed to help teams write,
+design, and share ideas effortlessly within
+a clean, unified workspace. With real-time
+syncing, smooth interactions, and a flexible
+editor, Eazee brings clarity and structure to
+team communication, creative thinking,
+and product ideation—making it easier for
+teams to turn ideas into momentum.
+`,
     bgColor: "#535e5a",
   },
   {
@@ -33,14 +34,16 @@ and a modern, polished UI.`,
     bgColor: "#535e5a",
   },
   {
-    id: 3,
-    imgSrc: "/velocity.jpg",
-    href: "https://velocity-studio.vercel.app",
-    name: "Velocity Studio",
-    desc: "Developed this portfolio web-app for a Pune based digital Marketing Agency",
-    detailedDesc: `Built with Next.js, TailwindCSS, GSAP, and Framer Motion, this interactive portfolio highlights the digital marketing agency’s expertise. With fast load times, smooth animations, and a responsive design, it showcases Velocity’s innovative strategies and successful projects. Whether on desktop or mobile, the site offers a seamless, engaging experience.`,
-    bgColor: "#535e5a",
-  },
+  id: 3,
+  imgSrc: "/taarini.png",
+  href: "https://taariniweddings.com",
+  name: "Taarini Weddings",
+  desc: "A bespoke wedding-planning agency turning dreams into beautifully crafted reality.",
+  detailedDesc: `
+Taarini Weddings is a full-service event planning and design studio dedicated to creating bespoke, memorable celebrations. From venue sourcing and logistics to decor design, floral styling and guest management — they handle every detail. With a focus on creative concepts, personalised themes and flawless execution, Taarini transforms your vision into an unforgettable experience, whether you want a grand celebration or an intimate gathering.
+  `,
+  bgColor: "#535e5a",
+},
   {
     id: 4,
     imgSrc: "/venus.jpg",

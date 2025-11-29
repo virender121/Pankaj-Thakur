@@ -24,27 +24,27 @@ const AboutPage = () => {
           <div className="mt-25 lg:w-1/2 lg:mt-0 sticky top-20 lg:top-25">
             <h1 className="uppercase font-ppneune-medium text-[11.2dvw] leading-[1.15] lg:text-[9dvw] lg:leading-[7.8dvw] underline underline-offset-6 decoration-4 lg:decoration-6 w-50">
               <a
-                href="https://zodius.vercel.app"
+                href="https://eazee-6wgk.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Zodius
+                Eazee AI
               </a>
             </h1>
             <p className="w-80 uppercase text-xl font-ppneune-medium my-10">
-              A gaming like website with gsap creative web animation
+              A collaborative productivity platform for fast, focused teams.
             </p>
           </div>
 
           <div className="lg:w-1/2">
             <a
-              href="https://zodius.vercel.app"
+              href="https://eazee-6wgk.vercel.app"
               target="_blank"
               rel="noopener noreferrer"
             >
               <div className="relative w-full h-[45dvh] lg:h-[100dvh]">
                 <Image
-                  src="/zodius-cover.jpg"
+                  src="/eazee.png"
                   alt="zodius-cover"
                   className="object-cover"
                   fill
